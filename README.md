@@ -24,7 +24,7 @@ The project management style called Agile is a way that teams manage and create 
 
 Source or version control is defined as tracking and managing changes to code, which is used to help to provide history to code changes, that can be useful if new code has failed, developers can revert back to the older version of the code that was working. A source management system called Git is used for source control of nearly all development projects as the Git system is able to store and track different changes of code in a project. This is done by a project uploaded to a repository, where usually multiple branches are created such as a test, development and master branch, this is to keep code tidy and go through a testing process before being copied to main code. Commits are the way Git tracks different changes to code, by the user pushing new code into their repository and usually leaving a comment on what they changed or add to the code.  
 
-![SourceControl](docs/binarytree.png)
+![SourceControl](docs/sourcecontrol.png)
 
 ## Q5. Provide an overview and description of a standard software testing process
 
@@ -58,11 +58,11 @@ Data manipulation language is a program language used for databases that need to
 
 Bubble Sort is a basic sorting algorithm that is done repetitively until the list is sorted. The way that this basic algorithm works is by a set of data repetitively being checked while adjacent values are swapped if needed, until the data is completely sorted. This way of sorting is known as quadratic or O(n^2). This algorithm usually performs poorly in the real world as a repetitive algorithm is deemed to be inefficient, the reason why bubble sorting is used to introduce concepts of sorting algorithms. Bubble sorting is best used for large simple data sets that are nearly sorted. For example, a list of employees in a company, sorted according to their roles.  
 
-![BubbleSort](docs/binarytree.png)
+![BubbleSort](docs/BubbleSort.png)
 
 Quick sort is known to be an efficient sorting algorithm, which is the most commonly used sorting method. The time complexity of quick sort is O(n log n), also known as logarithmic and linearithmic. Quick sorting is done by a set of data being sorted by the smaller than values are moved to the left and the greater than values are moved to the right and then the sub array data is also sorted the same way. By default quick sorting is not stable for large amounts of data but if implemented correctly, it can be reliable and stable.
 
-![QuickSort](docs/binarytree.png)
+![QuickSort](docs/QuickSort.png)
 
 Comparing the performance and efficiency of both bubble sorting and quick sorting, bubble sorting is slow as it needs to check each piece of data repetitively when sorting, which can take up to multiple passes before it is sorted correctly making it not efficient. Performance can be great for large amounts of data but it must be simple data. Quick sorting is known to be the most efficient way of sorting data, as it recursively sorts each array and sub array of data. Performance of quick sorting can be unstable but it depends on input.
 
@@ -70,11 +70,11 @@ Comparing the performance and efficiency of both bubble sorting and quick sortin
 
 Linear search is the method of a list or an array of data being checked for start to finish until the correct item has been searched. For example in the a array of five numbers, [15, 5, 6, 8, 10], we are looking for the number six, the search we start from number 15 then goes through number 5 then to 6, which is the correct item being searched, then the search stops, so the numbers 8 and 10 don't need to be checked. The complexity of linear search is O(n). Linear search is not the most effective method but in a small array of data it is useful but in a large array of data, this method could be very slow, depending on the position of the search item in the array.
 
-![LinearSearch](docs/binarytree.png)
+![LinearSearch](docs/LinearSearch.png)
 
 Binary search also know as logarithmic search is the method of finding the value and position of an sorted array, This search uses the divide and conquer method that compares the searched value to the middle position value of the array and if that value does not fit into the compared value, that side of the array is then removed and a new middle position is formed in the array. Then it continues the same method until the correct value is found. The complexity of binary search is O(log n). The fallback of binary search is that it can only work if the array of data is sorted but if it is known to be effective for large arrays of sorted data. 
 
-![BinarySearch](docs/binarytree.png)
+![BinarySearch](docs/BinarySearch.png)
 
 Comparing binary search to linear search is that binary search needs sorted data for it to work as linear does not. In efficiency binary search would be the more effecticent way as it can access data randomly as linear search needs to sequentially go through data. The performance of both binary and linear search are useful in their own way, as linear can search unsorted arrays but can be long if the array is large and binary search is faster with large arrays of data but only can search sorted arrays.  
 
@@ -157,7 +157,7 @@ Sponsors has many Sponsered_links
 ### g. Design a schema using an Entity Relationship Diagram (ERD) 
 appropriate for the database of this website (assuming a relational database model
 
-![ERD](docs/binarytree.png)
+![ERD](docs/GumtreeERD.png)
 
 ## References
 
